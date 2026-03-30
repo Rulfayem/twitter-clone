@@ -7,8 +7,6 @@ import { useNavigate } from "react-router-dom";
 export default function AuthPage() {
     const loginImage = "https://sig1.co/img-twitter-1";
     const URL = "https://720e3d63-e63d-43f2-9882-4916d9cef930-00-pyct2vjb07xn.sisko.replit.dev";
-    const [show, setShow] = useState(false);
-    const handleShow = () => setShow(true);
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [modalShow, setModalShow] = useState(null);
